@@ -20,7 +20,7 @@ public class Task4 {
         String str = "Hi 6 8 Black Rad";
         String description = Pattern.compile("\\d").matcher(str).replaceAll("");
 
-        System.out.println(description);
+        System.out.println("Список с удалёнными целыми числами" + description);
         return str;
     }
 
