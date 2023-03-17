@@ -11,7 +11,7 @@ public class Task4 {
     public static void main(String[] args) {
          task1();
          task2();
-       task3();
+         task3();
     }
 
     //Создать список типа ArrayList<String>.
@@ -20,7 +20,7 @@ public class Task4 {
         String str = "Hi 6 8 Black Rad";
         String description = Pattern.compile("\\d").matcher(str).replaceAll("");
 
-        System.out.println("Список с удалёнными целыми числами" + description);
+        System.out.println("Список с удалёнными целыми числами:  " + description);
         return str;
     }
 
