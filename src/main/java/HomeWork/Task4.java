@@ -26,7 +26,7 @@ public class Task4 {
 
     //Задан целочисленный список ArrayList.
     //Найти минимальное, максимальное и среднее арифметическое из этого списка.
-    private static void task2() {
+    static void task2() {
         Random random = new Random();
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
